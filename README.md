@@ -9,6 +9,10 @@
  ![Screenshot](https://i.imgur.com/FK5okfU.png)
  ![Screenshot](https://i.imgur.com/IkbQMj3.png)
  
+ ## Download
+ [The Game](https://github.com/KareemMAX/Breaker-Ball/releases/download/v1.0/Bins.zip)
+ [Development levels](https://github.com/KareemMAX/Breaker-Ball/releases/download/v1.0/Levels.zip)
+ 
  
  ## How do I play this game?
  I am pretty sure that you will run the game. Click on start. Select level 1. Then samsh the arrow buttons and the space bar to play.
