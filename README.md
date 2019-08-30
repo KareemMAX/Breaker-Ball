@@ -20,7 +20,7 @@
  It turned out that you should play with your **Mouse**. Just left click and move your mouse to control the paddle. Awesome isn't it 😅.
  
  ## Browse??
- Yes... You can create new levels and play them with the browse option. Also you can play the development levels included in the release. Try 0.lvl it is the best one 😂.
+ Yes... You can create new levels and play them with the browse option. Also you can play the development levels included in the release. Try `0.lvl` it is the best one 😂.
  
  ## How do I use the editor?
  Easy. Open the editor. Then you will have 3 buttons and a slidebar with a block next to it. 
