@@ -203,7 +203,7 @@ Public Class Form1
         If IsInStartup OrElse IsPaused OrElse IsInLevels Then
 
             GL.Enable(EnableCap.Blend)
-            GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha)
+            GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha)
             GL.BlendEquation(BlendEquationMode.FuncAdd)
 
             GL.Begin(BeginMode.Quads)
@@ -220,7 +220,7 @@ Public Class Form1
             If IsPaused Then
                 GL.Enable(EnableCap.Texture2D)
                 GL.Enable(EnableCap.Blend)
-                GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha)
+                GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha)
                 GL.BlendEquation(BlendEquationMode.Max)
 
                 LoadTex(My.Resources.Pause)
@@ -245,7 +245,7 @@ Public Class Form1
             ElseIf IsInStartup Then
                 GL.Enable(EnableCap.Texture2D)
                 GL.Enable(EnableCap.Blend)
-                GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha)
+                GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha)
                 GL.BlendEquation(BlendEquationMode.Max)
 
                 LoadTex(My.Resources.Title)
@@ -310,7 +310,7 @@ Public Class Form1
                 GL.Disable(EnableCap.Texture2D)
             ElseIf IsInLevels Then
                 GL.Enable(EnableCap.Blend)
-                GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha)
+                GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha)
                 GL.BlendEquation(BlendEquationMode.Max)
                 GL.Enable(EnableCap.Texture2D)
 
@@ -430,7 +430,7 @@ Public Class Form1
             LoadTex(GetGraphicsNumber(Score))
 
             GL.Enable(EnableCap.Blend)
-            GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha)
+            GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha)
             GL.BlendEquation(BlendEquationMode.Max)
 
             GL.Begin(BeginMode.Quads)
@@ -476,7 +476,7 @@ Public Class Form1
             LoadTex(GetGraphicsNumber(Score))
 
             GL.Enable(EnableCap.Blend)
-            GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha)
+            GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha)
             GL.BlendEquation(BlendEquationMode.Max)
 
             GL.Begin(BeginMode.Quads)
