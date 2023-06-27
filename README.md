@@ -1,4 +1,7 @@
 # Breaker Ball
+
+> :warning: **Deprecation notice:** This repo is now read-only and I'll not add new features, accept PRs nor accept issues. If you would like to continue working on this repo please fork it.
+
  This was a small school project I made (to join a competition in which it turned out to be a scam 😢). This **Golden** piece of code was written back in 2016 when I was in 9th grade. It was made from scratch without any game engine using OpenGL.
  
  Please note that I have uploaded this repository without changing any code nor texture. All of these findings are in there original form (just added a comment in the Editor).
